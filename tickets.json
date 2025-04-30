@@ -1,0 +1,26 @@
+[
+  {
+    "id": 101,
+    "user": "alice@brmedia.co.uk",
+    "issue": "Wi-Fi Connectivity",
+    "description": "My MacBook keeps dropping Wi-Fi.",
+    "status": "Open",
+    "created": "2025-03-28T09:00:00Z"
+  },
+  {
+    "id": 102,
+    "user": "john@brrmedia.co.uk",
+    "issue": "Faulty power button",
+    "description": "My power button won't press down fully.",
+    "status": "Closed",
+    "created": "2025-02-16T08:00:00Z"
+  },
+  {
+    "id": 103,
+    "user": "patricia@brrmedia.co.uk",
+    "issue": "Stuck in safe mode",
+    "description": "I can't exit safe mode when I boot up my Windows laptop.",
+    "status": "Open",
+    "created": "2025-04-20T10:00:00Z"
+  }
+]

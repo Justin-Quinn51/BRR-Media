@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Smith",
+    "role": "Video Producer",
+    "email": "alice@brmedia.co.uk",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "name": "John Ghram",
+    "email": "john@brmedia.co.uk",
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "name": "Patricia Lee",
+    "email": "patricia@brmedia.co.uk",
+    "status": "inactive"
+  }
+]

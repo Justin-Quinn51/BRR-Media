@@ -7,11 +7,11 @@ export default function TicketTable() {
     const fetchTableData = async () => {
       const response = await fetch("../../tickets.json");
       const ticketData = await response.json();
+      console.log(ticketData);
       setTableData(ticketData);
     };
     fetchTableData();
-  }),
-    [];
+  }, []);
 
   return (
     <div>
@@ -25,12 +25,12 @@ export default function TicketTable() {
             <th scope="column">Issue</th>
             <th scope="column">Description</th>
             <th scope="column">Status</th>
-            <th scope="column">Created</th>
+            <th scope="column">created</th>
           </tr>
         </thead>
 
         <tbody>
-          {tableData.map((item) => {
+          {tableData.map((item) => (
             <tr key={item.id}>
               <td scope="row">{item.id}</td>
               <td scope="row">{item.user}</td>
@@ -38,8 +38,8 @@ export default function TicketTable() {
               <td>{item.description}</td>
               <td>{item.status}</td>
               <td>{item.created}</td>
-            </tr>;
-          })}
+            </tr>
+          ))}
         </tbody>
       </table>
     </div>

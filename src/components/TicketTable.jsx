@@ -5,7 +5,7 @@ export default function TicketTable() {
 
   useEffect(() => {
     const fetchTableData = async () => {
-      const response = await fetch("../../tickets.json");
+      const response = await fetch("/tickets.json");
       const ticketData = await response.json();
       console.log(ticketData);
       setTableData(ticketData);

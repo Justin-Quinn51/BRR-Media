@@ -4,7 +4,7 @@ import "./index.css";
 
 function App() {
   return (
-    <main className="bg-blue-700">
+    <main className="">
       <Header />
       <TicketTable />
     </main>
